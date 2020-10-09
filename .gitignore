@@ -1,1 +1,2 @@
-./Application/db*
+Application/db.sqlite3
+
