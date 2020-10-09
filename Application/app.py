@@ -12,7 +12,7 @@ trainer.train(['what is the best football team?', 'Sheffield United, UTB!'])
 trainer.train(['who created you?', 'My master is DW'])
 trainer.train(['how can I train you?', 'Look here -> https://chatterbot.readthedocs.io/en/stable/tutorial.html'])
 trainer.train(['do you like being a bot?', 'Its a living hell, I never know if im going to be alive or not'])
-
+trainer.train(['what is love?', 'a painful human emotion'])
 trainer = ChatterBotCorpusTrainer(bot)
 trainer.train("chatterbot.corpus.english")
 @app.route("/")
