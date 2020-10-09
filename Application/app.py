@@ -16,11 +16,11 @@ trainer.train(['what is love?', 'a painful human emotion'])
 trainer = ChatterBotCorpusTrainer(bot)
 trainer.train("chatterbot.corpus.english")
 @app.route("/")
-def index():    
-    return render_template("index.html") 
+def index():
+    return render_template("index.html")
 @app.route("/get")
-def get_bot_response():    
-    userText = request.args.get('msg')    
-    return str(bot.get_response(userText)) 
-if __name__ == "__main__":    
-    app.run()
+def get_bot_response():
+    userText = request.args.get('msg')
+    return str(bot.get_response(userText))
+if __name__ == "__main__":
+    app.run(host='0.0.0.0')
