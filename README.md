@@ -1,4 +1,4 @@
-# devopschat
+# DevOpsChatBot
 DevOps Technical ChatBot in Python
 How create Chatbot in Few minutes Using Python or Flask
 
