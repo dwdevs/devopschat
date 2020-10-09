@@ -11,3 +11,7 @@ pip install chatterbot
 pip install -U spacy && python -m spacy download en
 
 Run Flask application - python app.py
+* Item 1
+* Item 2
+  * Sub Item 1
+  * Sub Item 2
