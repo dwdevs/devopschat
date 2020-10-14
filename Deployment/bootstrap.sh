@@ -18,4 +18,4 @@ clear
 echo "#### Starting Chatbot ####"
 git clone https://github.com/dwdevs/devopschat.git
 cd devopschat
-python3 ./Application/app.py
+python3 ./Application/main-app.py
