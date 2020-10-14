@@ -1,8 +1,7 @@
 # DevOpsChatBot
 DevOps Technical ChatBot in Python
 
-Vagrant deployment with "--provision" time:
-
+Vagrant deployment with "--provision" time: 16m 19s
 
 Dependencies:
 
