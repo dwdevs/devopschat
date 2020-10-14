@@ -9,6 +9,5 @@ To install Dependencies:
 * pip3 install flask flask-cors simplejson
 * pip install ChatterBot-corpus
 * pip install chatterbot
-* pip install -U spacy && python -m spacy download en
 
 Run Flask application - python app.py
