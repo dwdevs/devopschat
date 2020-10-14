@@ -1,8 +1,10 @@
-<<<<<<< HEAD
+# Chatterbot DB files
 *db.sqlite3
-Application/db.sqlite3
+
+# Vagrant
 *.vagrant
-=======
-./Application/db.sqlite3
+
+# OS X files
+.history
+.DS_Store
 *.DS_Store
->>>>>>> d2063b5b2e704284d0bdf290455acea8775f7f29
