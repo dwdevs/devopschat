@@ -12,4 +12,4 @@ Dependencies:
 
 
 
-Run Flask application - python app.py
+Run Flask application - python3 main-app.py
