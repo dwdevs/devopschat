@@ -7,7 +7,7 @@ To install Dependencies:
 * Python >= 3.6
 
 * pip3 install flask flask-cors simplejson
-* pip install ChatterBot-corpus
-* pip install chatterbot
+* pip3 install chatterBot-corpus
+* pip3 install Chatterbot
 
 Run Flask application - python app.py
