@@ -4,5 +4,5 @@ Application/db.sqlite3
 *.vagrant
 =======
 ./Application/db.sqlite3
+*.DS_Store
 >>>>>>> d2063b5b2e704284d0bdf290455acea8775f7f29
-
