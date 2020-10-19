@@ -1,5 +1,4 @@
-# DevOpsChatBot
-# DevOps Technical ChatBot in Python
+## DevOps Technical ChatBot in Python
 
 # Vagrant deployment with "--provision" time: 16m 19s
 
