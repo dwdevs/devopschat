@@ -9,7 +9,7 @@
 * pip3 install chatterBot-corpus
 * pip3 install Chatterbot
 ```
-## Running the Chatbot Application
+## Running the Chatbot Application:
 
 ### Run Flask APP manually:
 ```bash
