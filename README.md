@@ -1,5 +1,5 @@
 # DevOps Technical ChatBot in Python
-## Vagrant deployment with "--provision" time: 16m 19s
+> **Vagrant deployment with "--provision" time: 16m 19s**
 
 # Dependencies:
 ```bash
@@ -17,4 +17,5 @@ sudo python3 main-app.py
 ```bash
 vagrant ssh -c "sudo python3 ~/devopschat/Application/main-app.py"
 ```
-Purposely left from bootstrap.sh so we don't have to '--provision' everytime during testing
+
+> Purposely left from bootstrap.sh so we don't have to '--provision' everytime during testing
