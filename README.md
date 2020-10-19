@@ -1,4 +1,5 @@
 # DevOps Technical ChatBot in Python
+
 > **Vagrant deployment with "--provision" time: 16m 19s**
 
 ## Dependencies:
@@ -8,14 +9,19 @@
 * pip3 install chatterBot-corpus
 * pip3 install Chatterbot
 ```
+## Running the Chatbot Application
 
-## Run Flask application:
+### Run Flask APP manually:
 ```bash
 sudo python3 main-app.py
 ```
-## To start APP remotely after starting Vagrant machine:
+
+### Run APP with Vagrant:
+```bash
+cd Deployment
+vagrant up
+```
+### To start APP remotely after starting Vagrant machine and exiting python app:
 ```bash
 vagrant ssh -c "sudo python3 ~/devopschat/Application/main-app.py"
 ```
-
-> Purposely left from bootstrap.sh so we don't have to '--provision' everytime during testing
