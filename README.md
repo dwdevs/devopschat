@@ -21,7 +21,7 @@ sudo python3 main-app.py
 cd Deployment
 vagrant up
 ```
-### To start APP remotely after starting Vagrant machine and exiting python app:
+#### To start APP remotely after starting Vagrant machine and exiting python app:
 ```bash
 vagrant ssh -c "sudo python3 ~/devopschat/Application/main-app.py"
 ```
