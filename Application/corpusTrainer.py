@@ -1,7 +1,7 @@
 #import files
 from chatterbot import ChatBot
 from chatterbot.trainers import ChatterBotCorpusTrainer
-from
+from flask import Flask, render_template, request
 
 trainer = ChatterBotCorpusTrainer(bot)
 trainer.train("chatterbot.corpus.english")
