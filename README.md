@@ -1,6 +1,6 @@
 # DevOps Technical ChatBot in Python
 
-> **Vagrant deployment with "--provision" time: 16m 19s**
+> **Vagrant deployment with "--provision" time: 16m 19s**(mainly spacy install and build)
 
 ## Dependencies:
 ```bash
