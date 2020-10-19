@@ -1,7 +1,7 @@
 # DevOps Technical ChatBot in Python
 > **Vagrant deployment with "--provision" time: 16m 19s**
 
-# Dependencies:
+## Dependencies:
 ```bash
 * Python >= 3.6
 * pip3 install flask flask-cors simplejson
