@@ -25,3 +25,8 @@ vagrant up
 ```bash
 vagrant ssh -c "sudo python3 ~/devopschat/Application/main-app.py"
 ```
+
+** Checking log files on vagrant machine **
+```bash
+vagrant ssh -c "sudo tail -F ~/devopschat/Application/chat-X.log"
+```
