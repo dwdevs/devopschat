@@ -1,3 +1,6 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+
 #import files
 from flask import Flask, render_template, request
 from chatterbot import ChatBot
@@ -5,17 +8,20 @@ from chatterbot import ChatBot
 # Creating ChatBot Instance
 chatbot = ChatBot(
     'CoronaBot',
-    storage_adapter='chatterbot.storage.SQLStorageAdapter',
-    database_uri='sqlite:///database.sqlite3',
     logic_adapters=[
-        'chatterbot.logic.BestMatch'
         {
-            'import_path': 'chatterbot.logic.BestMatch',
-            'default_response': 'I am sorry, but I do not understand you.',
-            'maximum_similarity_threshold': 0.90
+            "import_path": "chatterbot.logic.BestMatch",
+            "statement_comparison_function": "chatterbot.comparisons.jaccard_similarity",
+            "response_selection_method": "chatterbot.response_selection.get_first_response",
+            'threshold': 0.65,
+            'default_response': "I am sorry, but I do not understand you."
         },
-        'chatterbot.logic.MathematicalEvaluation'
-    ]
+        {
+            'import_path': 'chatterbot.logic.MathematicalEvaluation'
+        }
+    ],
+    storage_adapter='chatterbot.storage.SQLStorageAdapter',
+    database_uri='sqlite:///database.sqlite3'
 )
 
 
